@@ -74,21 +74,21 @@ function isPalindrome2(word) {
 }
 
 
-//Versione 2 con metodi built in di JS
+// //Versione 2 con metodi built in di JS
 
-const myWord = 'parola';
+// const myWord = 'parola';
 
-function isPalindrome3(word) {
-    //casi limite
-    if (word.length === 0) return false;
-    if (word.length === 1) return true;
+// function isPalindrome3(word) {
+//     //casi limite
+//     if (word.length === 0) return false;
+//     if (word.length === 1) return true;
 
-    let reverseWord = '';
+//     let reverseWord = '';
 
-    for (let i = word.length - 1; i >= 0; i--) {
-        reverseWord += word[i];
-    }
-    return reverseWord.toLowerCase() === word.toLowerCase();
-}
+//     for (let i = word.length - 1; i >= 0; i--) {
+//         reverseWord += word[i];
+//     }
+//     return reverseWord.toLowerCase() === word.toLowerCase();
+// }
 
-isPalindrome3()
+// isPalindrome3()
